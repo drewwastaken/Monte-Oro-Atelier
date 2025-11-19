@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montè Oro Atelier - Premium Travel Slippers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sticky Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <button class="hamburger-menu" id="hamburger-menu" aria-label="Menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <div class="nav-logo">
+                <span class="logo-text">MONTÈ ORO ATELIER</span>
+            </div>
+            <div class="nav-icons">
+                <button class="icon-btn" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+                <button class="icon-btn" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </button>
+                <button class="icon-btn" aria-label="Cart">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sidebar Menu -->
+    <div class="sidebar-menu" id="sidebar-menu">
+        <div class="sidebar-header">
+            <button class="sidebar-close" id="sidebar-close" aria-label="Close menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="#product" class="sidebar-link">Shop</a>
+            <a href="#account" class="sidebar-link">Account</a>
+            <a href="#about" class="sidebar-link">About</a>
+        </nav>
+    </div>
+
+    <!-- Sidebar Overlay -->
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-headline fade-in">Your Journey. Elevated.</h1>
+            <p class="hero-subheadline fade-in-delay-1">This is actually a real prototype of the website I'm currently working on right now.</p>
+            <a href="#product" class="cta-button fade-in-delay-2">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Product Features Section -->
+    <section class="features" id="features">
+        <div class="features-container">
+            <div class="features-image">
+                <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80" alt="Premium Slipper" id="feature-img" class="feature-main-img">
+            </div>
+            <div class="features-content" id="features-list">
+                <h2 class="section-title">Crafted to Perfection</h2>
+                <div class="feature-item" data-image="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800&q=80">
+                    <div class="feature-icon">
+                        <div class="icon-circle">01</div>
+                    </div>
+                    <div class="feature-text">
+                        <h3>The Soft Insole</h3>
+                        <p>Experience cloud-like comfort with our premium cushioned insole, designed for all-day wear during your travels.</p>
+                    </div>
+                </div>
+                <div class="feature-item" data-image="https://images.unsplash.com/photo-1565084888279-aca607ecce0c?w=800&q=80">
+                    <div class="feature-icon">
+                        <div class="icon-circle">02</div>
+                    </div>
+                    <div class="feature-text">
+                        <h3>Premium Leather</h3>
+                        <p>Full-grain leather construction that ages beautifully, providing durability and timeless elegance.</p>
+                    </div>
+                </div>
+                <div class="feature-item" data-image="https://images.unsplash.com/photo-1603487742131-4160ec999306?w=800&q=80">
+                    <div class="feature-icon">
+                        <div class="icon-circle">03</div>
+                    </div>
+                    <div class="feature-text">
+                        <h3>The Wood-like Sole</h3>
+                        <p>Sturdy, wood-inspired sole offers exceptional grip and longevity, perfect for any surface.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Story Section -->
+    <section class="craft" id="about">
+        <div class="craft-container">
+            <h2 class="craft-headline scroll-reveal">An Atelier for the Journey.</h2>
+            <div class="craft-text scroll-reveal">
+                <p>A Company built by Nicholas Andrew Alcantara</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Showcase Section -->
+    <section class="product" id="product">
+        <div class="product-container">
+            <h2 class="section-title center">Choose Your Style</h2>
+            <div class="product-layout">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80" alt="The Montè Slipper" id="product-img" class="product-main-img">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">The Montè Slipper</h3>
+                    <p class="product-price">₱3,499</p>
+                    <p class="product-description">Handcrafted premium leather travel slippers with cushioned insole and durable wood-like sole. Your perfect travel companion.</p>
+                    
+                    <div class="color-selector">
+                        <p class="selector-label">Color</p>
+                        <div class="color-swatches">
+                            <div class="color-swatch active" data-color="black" data-image="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80" style="background-color: #1a1a1a;"></div>
+                            <div class="color-swatch" data-color="brown" data-image="https://images.unsplash.com/photo-1603808033587-e1863fed8b4b?w=800&q=80" style="background-color: #6B4423;"></div>
+                            <div class="color-swatch" data-color="navy" data-image="https://images.unsplash.com/photo-1560343090-f0409e92791a?w=800&q=80" style="background-color: #3D4A42;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="shop-cta" id="shop">
+        <div class="cta-container">
+            <h2 class="cta-headline">Ready for your next adventure?</h2>
+            <div class="cta-buttons">
+                <a href="#" class="shop-button shopee">Shop on Shopee</a>
+                <a href="#" class="shop-button lazada">Shop on Lazada</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-copyright">&copy; 2025 Montè Oro Atelier. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/monteoro.atelier/" class="social-link">Instagram</a>
+                <a href="#" class="social-link">TikTok</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
